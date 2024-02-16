@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+#llefiavideo img{
+    width:240px; /*cambiamos el tamaño de la imagen*/
+    height: 100px; /*cambiamos el tamaño de la imagen*/
+}
+main{
+    display: grid;
+    place-items: center;
+    background-color: black;
+}
+
+h1{
+color: dodgerblue;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/*formulario*/
+
+
+/*etiquetas*/
+#correo{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+}
+#contraseña{
+    width: 250px;
+}
+
+label{
+color: white;
+}
+
+
+/*Cajas para insertar texto*/
+input{
+    border-radius: 5px;
+    
+}
+
+
+/*Boton de enviar datos*/
+button{
+    
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: dodgerblue;
+    width: 250px;
+}
+
+/*--------------------NAVEGACIÓN-------------------------*/
+
+
+#barramenu{
+    display: flex; /*hacemos que los items esten puestos uno al lado de el otro*/
+    justify-content: space-between; /*Hacemos que cada uno de los items esten en lados opuestos*/
+}
+#navegador nav ul{
+    display: flex; /*hacemos que los li esten de manera continua*/
+    list-style: none; /*quitamos el punto de los li*/
+    padding: 10px; /* separamos los li de el borde*/
+
+}
+#navegador nav ul li{
+padding: 15px; /*separamos los li entre ellos */
+
+}
+#navegador nav ul li a{
+    color: white; /*cambiamos el color de la letra*/
+    font-size: 20px; /*cambiamos el tamaño de la letra*/
+}

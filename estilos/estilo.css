@@ -1,0 +1,172 @@
+/*--------------------PAGINA-COMPLETA-------------------------*/
+body{ /*Hacemos que todo el fondo de la paguina web sea de color negro*/
+    background-color: black;
+}
+
+
+
+/*--------------------NAVEGACIÓN-------------------------*/
+/*Aqui editamos todo lo que es el menu y la barra de arriba*/
+
+
+#barramenu{
+    display: flex; /*hacemos que los items esten puestos uno al lado de el otro*/
+    justify-content: space-between; /*Hacemos que cada uno de los items esten en lados opuestos*/
+}
+#navegador nav ul{
+    display: flex; /*hacemos que los li esten de manera continua*/
+    list-style: none; /*quitamos el punto de los li*/
+    padding: 10px; /* separamos los li de el borde*/
+
+}
+#navegador nav ul li{
+padding: 15px; /*separamos los li entre ellos */
+
+}
+#navegador nav ul li a{
+    color: white; /*cambiamos el color de la letra*/
+    font-size: 20px; /*cambiamos el tamaño de la letra*/
+}
+
+
+
+/*--------------------HOME-------------------------*/
+
+
+
+
+
+
+/*imagen y posicion de la imagen "llefi video"*/
+#llefiavideo img{
+    width:240px; /*cambiamos el tamaño de la imagen*/
+    height: 100px; /*cambiamos el tamaño de la imagen*/
+}
+
+/*Apartado de publicidad "no se llama asi pero pa ponerle un nombre"*/
+#publicida{
+    display: flex;
+    backdrop-filter: blur(10px);
+    background-image: url(../img/bakgraundfilms.jpg); /*ponemos una imagen de fondo*/
+    
+}
+#publicida h2{
+    color: aliceblue; /*Cambiamos el color al texto*/
+    font-size: 70px; /*Cambiamos el tamaño al texto*/
+}
+#publicida img{
+    width:500px; /*cambiamos el tamaño de la imagen*/
+    height: 400px; /*cambiamos el tamaño de la imagen*/
+}
+
+/*Apartado de plataformas*/
+
+#plataformas{
+    display: flex; /*Ponemos las fotos de los logos de las plataformas una al ldo de el otro*/
+}
+#plataformas img{
+    justify-content: space-between; /*Ponemos la distribucion de las imagenes para qeu dejen un espacio entre ellas */
+    padding: 10px; /*Cambiamos la separacion que hay entre las imagenes y el div de arriba*/
+    width:480px; /*cambiamos el tamaño de la imagen*/
+    height: 240px; /*cambiamos el tamaño de la imagen*/  
+    border-style: solid;  /*Ponemos un brode alrededor de las imagenes*/
+    border-color: rgb(124, 125, 126); /*poenmos color al borde de la imagen*/
+    margin: 65px; /*hacemos que haya una separación entre las imagenes */
+}
+#peliculas h3{ /*Cambiamos el formato de todos los h3 que se encuentran en el apartado main*/
+    color: aliceblue; /*Cambiamos el color*/
+    font-size: 30PX; /*Cambiamos el tamaño*/ 
+}
+
+/*peliculas*/
+
+/*Terror*/
+#terror{
+    display: flex;
+}
+#terror img{
+
+    justify-content: space-between; /*Ponemos la distribucion de las imagenes para qeu dejen un espacio entre ellas */
+    padding: 10px; /*Cambiamos la separacion que hay entre las imagenes y el div de arriba*/
+    width: 300px; /*cambiamos el tamaño de la imagen*/
+    height: 400px; /*cambiamos el tamaño de la imagen*/
+    border-style: solid;  /*Ponemos un borde*/
+    border-color: rgb(124, 125, 126);   /*Cambiamos el color de el borde*/
+
+}
+/*Comedia*/
+
+#comedias{
+    display: flex; /*Para que las imagenes se pongan una al lado de la otra*/
+}
+#comedias img{
+
+    justify-content: space-between; /*Ponemos la distribucion de las imagenes para qeu dejen un espacio entre ellas */
+    padding: 20px; /*Cambiamos la separacion que hay entre las imagenes y el div de arriba*/
+    width: 300px; /*cambiamos el tamaño de la imagen*/
+    height: 400px; /*cambiamos el tamaño de la imagen*/
+    border-style: solid;  /*Ponemos un borde*/
+    border-color: rgb(124, 125, 126);   /*Cambiamos el color de el borde*/
+
+}
+
+/*Acción*/
+#Accion{
+    display: flex;
+}
+#Accion img{
+
+    justify-content: space-between; /*Ponemos la distribucion de las imagenes para qeu dejen un espacio entre ellas */
+    padding: 20px; /*Cambiamos la separacion que hay entre las imagenes y el div de arriba*/
+    width: 300px; /*cambiamos el tamaño de la imagen*/
+    height: 400px; /*cambiamos el tamaño de la imagen*/
+    border-style: solid;  /*Ponemos un borde*/
+    border-color: rgb(124, 125, 126);   /*Cambiamos el color de el borde*/
+}
+
+
+
+/*------------------ACERCA-DE-------------------------*/
+
+
+
+
+/*-------------------PRECIOS--------------------------*/
+
+
+
+#precios h1{
+    color: white;
+}
+
+
+
+/*Tabla*/
+table, td, th{
+    border: 1px solid white;
+    color: white;
+}
+
+
+/*formulario*/
+
+label, h1{
+    color: white;
+}
+
+
+
+/*Peliculas*/
+
+p, h2, h3, h4{
+    color: white;
+}
+
+/*-----------------*/
+ul li a{
+color: white;
+}
+ul li{
+    color: white;
+}
+
